@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('grid.css');
+        @import url('shoes_ad.css');
+        @import url('nav.css');
+        @import url('footer.css');
+        @import url('store_style.css');
+        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+    </style>
+    <script src="nav.js"></script>
+    <script src="shoes_ad.js"></script>
+    <script src="store_sidebar.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <button class="hamberger">
+        <div class="open_hamberger">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="close_hamberger">
+            <span></span>
+            <span></span>
+        </div>
+    </button>
+    <div class="hamberger_navbar">
+        <div class="hamberger_navbar_wrap">
+            <ul class="clip_wrap">
+                <li class="text"><a class="word_animation" data-word="INDEX" href="index.html"><span
+                            class="hambergerword" data-word-inside="INDEX">INDEX</span></a></li>
+                <li class="text"><a class="word_animation" data-word="BLOG" href="blog.html"><span class="hambergerword"
+                            data-word-inside="BLOG">BLOG</span></a></li>
+                <li class="text"><a class="word_animation" data-word="LOGIN" href="login.html"><span
+                            class="hambergerword" data-word-inside="LOGIN">LOGIN</span></a></li>
+                <li class="text"><a class="word_animation" data-word="STORE" href="store.html"><span
+                            class="hambergerword" data-word-inside="STORE">STORE</span></a></li>
+                <li class="text"><a class="word_animation" data-word="CART" href="checkout.html"><span class="hambergerword"
+                            data-word-inside="CART">CART</span></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <header>
+        <nav>
+
+            <ul class="navwrap">
+                <li class="pic"><a href="index.html"><img src="img/Group 69.png" alt=""></a></li>
+                <li class="text"><a class="nav_word_animation" href="blog.html" data-word="blog"><span
+                            data-word-inside="blog">blog</span></a></li>
+                <li class="text"><a class="nav_word_animation" href="login.html" data-word="login"><span
+                            data-word-inside="login">login</span></a></li>
+                <li class="text"><a class="nav_word_animation" href="store.html" data-word="store"><span
+                            data-word-inside="store">store</span></a></li>
+                <li class="text"><a class="nav_word_animation" href="checkout.html" data-word="cart"><span
+                            data-word-inside="cart">cart</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="advertise">
+        <div class="ad_container">
+            <div class="ani_area text_ani_wrap">
+                <span class="new_word">NEW</span>
+                <h1 class="shoes_word">SHOES</h1>
+                <ul class="type_ani">
+                    <li><span class="word_ani"></span><span></span></li>
+                </ul>
+                <div class="store_link">
+                    <button class="see_more"><a href="#store_wrap">SEE MORE</a></button>
+                    <button class="shop_now"><a href="shoes_detail.html">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="ani_area ">
+                <div class="shoes_pic_area">
+                    <div class="shoes_ani_backgroundcolor"> </div>
+                    <img src="img\shoes_main\shoes0_0\pic0.png" alt="" class="">
+                </div>
+
+            </div>
+            <div class="shoes_index">
+                <div class="little_shoes_pic"><img src="img\shoes_main\shoes0_0\pic0.png" alt=""></div>
+                <div class="little_shoes_pic"><img src="img\shoes_main\shoes1_0\pic0.png" alt=""></div>
+                <div class="little_shoes_pic"><img src="img\shoes_main\shoes2_0\pic0.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <sectopn class="store_wrap" id="store_wrap">
+
+        <div class="shoes_store_items_wrap">
+
+
+            <div class="hot_label">
+                <div class="label">
+
+                    <div class="icon"><i class="fa-solid fa-fire" style="color: #fe0606;"></i></div>
+                    <div class="label_inside">#New Balance 530</div>
+                    <div class="label_inside">#PUMA Mayze </div>
+                    <div class="label_inside">#New Balance </div>
+                </div>
+                <div class="result"><span>Result:50 items</span></div>
+            </div>
+            <div class="sidebar_hamberger">
+                <div class="sidebar_nav">
+                    <div class="sidebar_button"><span></span></div>
+                    <div class="sidebar_body">
+                        <div class="sidebar_body_wrap">
+                            <div class="filter_search">
+                                <div class="filter"><button>Check Filter</button></div>
+                                <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="search">
+                                </div>
+                            </div>
+                            <div class="checkbox_wrap">
+                                <div class="sport">
+                                    <h3 class="checkbox_title">SPORT</h3>
+                                    <div><input type="checkbox" id="sportid_one" name="sportid_one"> <label
+                                            for="sportid_one">Basketball</label></div>
+                                    <div><input type="checkbox" id="sportid_two" name="sportid_two"><label
+                                            for="sportid_two">Running</label> </div>
+                                    <div> <input type="checkbox" id="sportid_three" name="sportid_three"><label
+                                            for="sportid_three">Football</label> </div>
+                                    <div> <input type="checkbox" id="sportid_four" name="sportid_four"><label
+                                            for="sportid_four">Training</label></div>
+                                </div>
+                                <div class="age">
+                                    <h3 class="checkbox_title">AGE</h3>
+                                    <div><input type="checkbox" id="age_one" name="sportid_one"> <label
+                                            for="age_one">Aldult</label></div>
+                                    <div><input type="checkbox" id="age_two" name="sportid_two"><label
+                                            for="age_two">Female</label> </div>
+                                    <div> <input type="checkbox" id="age_three" name="sportid_three"><label
+                                            for="age_three">4-8 years old</label> </div>
+                                    <div> <input type="checkbox" id="age_four" name="sportid_four"><label
+                                            for="age_four">0-4 years old</label></div>
+                                </div>
+                                <div class="gender">
+                                    <h3 class="checkbox_title">GENDER</h3>
+                                    <div><input type="checkbox" id="gender_one" name="sportid_one"> <label
+                                            for="gender_one">Male</label></div>
+                                    <div><input type="checkbox" id="gender_two" name="sportid_two"><label
+                                            for="gender_two">Female</label> </div>
+                                    <!-- <div> <input type="checkbox" id="sportid_three" name="sportid_three"><label
+                                            for="sportid_three">Football</label> </div>
+                                    <div> <input type="checkbox" id="sportid_four" name="sportid_four"><label
+                                            for="sportid_four">Training</label></div> -->
+                                </div>
+                                <div class="size">
+                                    <h3 class="checkbox_title">SIZE</h3>
+                                    <div><input type="checkbox" id="size_one" name="sportid_one"> <label
+                                            for="size_one">UK8</label></div>
+                                    <div><input type="checkbox" id="size_two" name="sportid_two"><label
+                                            for="size_two">UK8.5</label> </div>
+                                    <div> <input type="checkbox" id="size_three" name="sportid_three"><label
+                                            for="size_three">UK9</label> </div>
+                                    <div> <input type="checkbox" id="size_four" name="sportid_four"><label
+                                            for="size_four">UK9.5</label></div>
+                                </div>
+                                <div class="brand">
+                                    <h3 class="checkbox_title">BRAND</h3>
+                                    <div><input type="checkbox" id="brand_one" name="sportid_one"> <label
+                                            for="brand_one">NIKE</label></div>
+                                    <div><input type="checkbox" id="brand_two" name="sportid_two"><label
+                                            for="brand_two">Puma</label> </div>
+                                    <div> <input type="checkbox" id="brand_three" name="sportid_three"><label
+                                            for="brand_three">New Balance</label> </div>
+                                    <div><input type="checkbox" id="brand_four" name="sportid_four"><label
+                                            for="brand_four">Adidas</label></div>
+                                    <div><input type="checkbox" id="brand_five" name="sportid_five"><label
+                                            for="brand_five">Brooks Running</label></div>
+                                </div>
+                                <div class="price">
+                                    <h3 class="checkbox_title">PRICE</h3>
+                                    <div><input type="checkbox" id="price_one" name="sportid_one"> <label
+                                            for="price_one">$10000~20000NT</label></div>
+                                    <div><input type="checkbox" id="price_two" name="sportid_two"><label
+                                            for="price_two">$5000~10000NT</label> </div>
+                                    <div> <input type="checkbox" id="price_three" name="sportid_three"><label
+                                            for="price_three">$2000~5000NT</label> </div>
+                                    <div> <input type="checkbox" id="price_four" name="sportid_four"><label
+                                            for="price_four">$500~2000NT</label></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shoes_items container">
+                <div class="shoes_items_cardlist row">
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\41a4652a-8447-4d1d-8a58-8797769eb423.webp" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Nike-Logo-500x281.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Nike Revolution 6</h3>
+                                <p class="shoes_sport">Run</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$4000NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\b6c4ec00-7a30-43fc-9504-58cf27c00d67.webp" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Nike-Logo-500x281.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Nike Air Force</h3>
+                                <p class="shoes_sport">Basketball</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$4700NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\6c6d0bc2-3733-45a1-933f-1442e61ed787.webp" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Nike-Logo-500x281.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Nike Roshe Run</h3>
+                                <p class="shoes_sport">Run</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$2000NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\02ffc2b7-a1a7-4eb7-9fe7-9d211dcffc94.webp" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Nike-Logo-500x281.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Nike React Element 55</h3>
+                                <p class="shoes_sport">Basketball</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$3000NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card  col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\638157883980830000.jpg" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\下載.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Puma Suede Classic</h3>
+                                <p class="shoes_sport">Run</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$5000NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\638197422915170000.jpg" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\下載.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Puma RS-X</h3>
+                                <p class="shoes_sport">Run</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$5500NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\imageQC2000064526_2000_1.jpg" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Adidas-logo-500x332.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Adidas Stan Smith</h3>
+                                <p class="shoes_sport">Casual</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$1800NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\imageQC2000064541_2000_1.jpg" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Adidas-logo-500x332.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Adidas Ultraboost</h3>
+                                <p class="shoes_sport">Basketball</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$3800NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\imageQC2000054525_2000_3.jpg" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Adidas-logo-500x332.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Adidas Gazelle</h3>
+                                <p class="shoes_sport">Run</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$4900NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\imageQC2000072963_2000_1.jpg" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\Adidas-logo-500x332.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">Adidas Swift Run</h3>
+                                <p class="shoes_sport">Run</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$2900NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\ml574evg_nb_02_i.webp" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\New-Balance-Logo-500x281.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">New Balance Fresh Foam X 1080v11</h3>
+                                <p class="shoes_sport">Run</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$1900NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="shoes_card col-xl-3 col-lg-4 col-md-6  col-12">
+                        <a href="shoes_detail.html">
+                            <div class="shoes_pic_wrap">
+                                <div class="pic"><img src="store_img\u327wed_nb_02_i.webp" alt="">
+                                </div>
+                                <div class="brand_logo"><img src="store_img\New-Balance-Logo-500x281.png" alt=""></div>
+                                <div class="shoes_love_icon"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+
+                            <div class="text">
+                                <h3 class="shoes_name">New Balance 574 Sport</h3>
+                                <p class="shoes_sport">Casual</p>
+                                <div class="price_stars">
+                                    <p class="shoes_price">$2700NT</p>
+                                    <div class="stars_icon"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shoes_item_page">
+                <div class="left"><i class="fa-solid fa-angles-left"></i></div>
+                <div class="page_number active">1</div>
+                <div class="page_number">2</div>
+                <div class="page_number">3</div>
+                <div class="page_number_dot">. . .</div>
+                <div class="page_number">11</div>
+                <div class="right"><i class="fa-solid fa-angles-right"></i></div>
+
+
+            </div>
+        </div>
+    </sectopn>
+
+
+
+
+    <!-- <script src="script.js"></script> -->
+    <footer>
+        <div class="main_footer">
+            <div class="footer_wrap">
+                <div class="footer_row">
+                    <div class="footer_col footer_title">
+                        <div class="logo"><img src="img/Group 69.png"></div>
+                        <!-- <div class="text">
+                        <p>Athletes in all sports face mental challenges that can be just as difficult to overcome as
+                            physical
+                        </p>
+                    </div> -->
+                        <!-- <div class="subscribe">
+                        <form action="">
+                            <input type="text">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div> -->
+                    </div>
+                    <div class="footer_col">
+                        <h4>Browse<div class="footer_ani"><span></span></div>
+                        </h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="store.html">Store</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Information <div class="footer_ani"><span></span></div>
+                        </h4>
+                        <ul>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">New shoes</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_col">
+                        <h4>Connect<div class="footer_ani"><span></span></div>
+                        </h4>
+                        <ul class="connect_button">
+                            <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></i>
+                            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nocopyright">nocopyright</noscript><i class="fa-regular fa-copyright"></i>只當作網頁切版練習</div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
